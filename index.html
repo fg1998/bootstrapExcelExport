@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Export Table to Excel</title>
-    <link href="bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
@@ -201,12 +202,17 @@
 
 
     </div>
-    <script src="jquery/jquery-1.11.2.js"></script>
-    <script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <!-- plugin -->
     <script src="fg1998/jquery-bootstrapExportExcel.js" type="text/javascript"></script>
     <script>
         $(document).ready(function () {
-            $('#btnExport').bootstrapExcelExport({ tableSelector: '#tblExample', worksheetName:'foobar', fileName : "dio.xls" });
+            $('#btnExport').bootstrapExcelExport({ tableSelector: '#tblExample', worksheetName:'foobar', fileName : "Excel_export.xls" });
         });
     </script>
 </body>
