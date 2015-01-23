@@ -11,7 +11,7 @@ var defaults = {
     encoding: "utf-8"
 };
 
-$.fn.bootstrapExcelExport = function(options) {
+$.fn.bootstrapExcelExport = function (options) {
 
     var settings = $.extend({}, defaults, options);
 
@@ -44,11 +44,11 @@ $.fn.bootstrapExcelExport = function(options) {
         excelFile += "</html>";
 
         var uri = "data:application/vnd.ms-excel;base64,";
-
         var result = uri + window.btoa(unescape(excelFile));
 
         $(this).attr("href", result).attr("download", settings.fileName);
+        
+
 
     });
 };
-
