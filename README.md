@@ -104,6 +104,44 @@ look and feel css for <code>&lt;a&gt;</code> links using <code>btn btn-default</
 <p><a href="http://jquery.com/">jQuery</a> - jQuery is a fast, small, and feature-rich JavaScript library.</p>
 <p><a href="https://github.com/battatech/battatech_excelexport">Battatech excelexport</a> - Very useful and rick tool to export HTML tables to excel.</p>
 
+<h3>Compatibility</h3>
+<p>List of tested and compatibility browsers<p>
+<table>
+  <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Version tested</th>
+        <th>Compatibility</th>
+      </tr>
+  </thread>
+  <tr>
+    <td>Chrome</td>
+    <td>40</td>
+    <td>Compatible</td>
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>34</td>
+    <td>Compatible</td>
+  </tr>
+  <tr>
+    <td>Opera</td>
+    <td>26</td>
+    <td>Compatible</td>
+  </tr>
+  <tr>
+    <td>Safari</td>
+    <td>5</td>
+    <td><strong>Not compatible</strong></td>
+  </tr>
+  <tr>
+    <td>Internet Explorer</td>
+    <td>11</td>
+    <td><strong>Not compatible</strong></td>
+  </tr>
+</table>
+    
+
 <h3>License</h3>
 <p>Coded by <a href="https://www.facebook.com/fg1998">fg1998</a></p>
 <p>I really don´t know much about license. I believe the <em>Apache.org Version 2.0</em> is enough for everyone. In feel words, you can use, copy, modify, etc whatever you want. I hope this piece of software cand be useful for you.
