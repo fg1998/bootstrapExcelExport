@@ -1,3 +1,8 @@
+/*
+    bootstrapExportExcel https://github.com/fg1998/bootstrapExcelExport
+    Copyright 2015 Fernando Garcia fg1998@gmail.com
+    Based on batta tech excel export https://github.com/battatech/battatech_excelexport
+*/
 
 var defaults = {
     tableSelector: null,
@@ -22,7 +27,6 @@ $.fn.bootstrapExcelExport = function(options) {
         excelFile += "<x:ExcelWorksheets>";
         excelFile += "<x:ExcelWorksheet>";
         excelFile += "<x:Name>";
-        //excelFile += "{worksheet}";
         excelFile += settings.worksheetName;
         excelFile += "</x:Name>";
         excelFile += "<x:WorksheetOptions>";
@@ -40,10 +44,10 @@ $.fn.bootstrapExcelExport = function(options) {
         excelFile += "</html>";
 
         var uri = "data:application/vnd.ms-excel;base64,";
+
         var result = uri + window.btoa(unescape(excelFile));
 
         $(this).attr("href", result).attr("download", settings.fileName);
-
 
     });
 };
