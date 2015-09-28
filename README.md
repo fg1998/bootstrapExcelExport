@@ -7,6 +7,9 @@ Bootstrap plugin to export html tables to excel
 <p>This is a simple usage plugin to export HTML <code>&lt;table&gt;</code> to excel files. In fact, alow user to save html data to disk as a .xls file. It was developed with
 <a href="http://getbootstrap.com/">Twitter Bootstrap</a> in mind, but you can use with regular html tables instead.
 <p>It´s based on <a href="https://github.com/battatech/battatech_excelexport">Batta Tech Excel Export</a>, but a bit more simple.</p>
+
+<p>You can try a demo <a href='http://www.cigi.com.br/bootstrapexcel/sample.html'>here</a></p>
+
 <h3>How to use</h3>
 <p>
 First of all, you need a HTML <code>&lt;table&gt;</code> decorated or not with bootstrap css <code>table</code>, <code>table-striped</code>, etc.
